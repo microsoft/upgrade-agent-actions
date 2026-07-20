@@ -1,4 +1,4 @@
-name: 'Copilot Coding Agent Setup for DotNet-Modernize'
+name: 'Copilot Coding Agent Setup for Upgrade Agent'
 description: 'Prepares the GitHub Copilot Coding Agent development environment with required tools and SDKs (.NET, Node.js, Copilot CLI).'
 author: 'decho'
 
