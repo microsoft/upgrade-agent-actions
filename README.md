@@ -2,7 +2,7 @@
 
 A GitHub Action that prepares the [GitHub Copilot Coding Agent](https://docs.github.com/en/copilot/using-github-copilot/using-copilot-coding-agent) development environment with the tools and SDKs it needs to build, test, and upgrade projects.
 
-For instructions on running upgrade with the Copilot coding agent, see the [coding agent README](https://github.com/dotnet/modernize-dotnet/blob/main/coding-agent/README.md).
+For instructions on running upgrade with the Copilot coding agent, see the [cloud agent README](https://github.com/microsoft/upgrade-agent-plugins/blob/main/cloud-agent/README.md).
 
 ## Usage
 
@@ -42,7 +42,7 @@ jobs:
           install-framework-targeting-packs: 'true'
 ```
 
-> **Note:** When using Windows runners, you must also disable the integrated firewall in your repository settings under **Settings → Copilot → Coding agent**. See the [coding-agent README](https://github.com/dotnet/modernize-dotnet/blob/main/coding-agent/README.md) for details.
+> **Note:** When using Windows runners, you must also disable the integrated firewall in your repository settings under **Settings → Copilot → Coding agent**. See the [cloud-agent README](https://github.com/microsoft/upgrade-agent-plugins/blob/main/cloud-agent/README.md) for details.
 
 ## Inputs
 
